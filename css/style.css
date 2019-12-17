@@ -1,0 +1,307 @@
+*{
+    margin : 0px ;
+    padding : 0px ;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+body{
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(rgba(1,1,1,.6),rgba(158, 136, 136, 0.877)),url("hogwarts-2036645.jpg") ;
+    background-size:contain,no-repeat;
+    background-position: center;
+    color:cornsilk;
+    overflow: auto;
+    position:relative;
+    
+}
+#container{
+    
+    width: 100%;
+    height : 100% ;
+}
+#header {
+    width: 100%;
+    height : 200px;
+}
+#header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    
+    float:left ;
+    margin-top: 25px;
+    margin-left:100px ;
+}
+.content ul {
+    margin-top : 25px ;
+   
+    margin-right : 100px ;
+}
+.content ul li{
+    display: inline-flex;
+    padding : 10px 20px ;
+    border : 1px solid white ;
+    background-clip: border-box;
+    
+}
+.content ul li a {
+    color :lavender ;
+
+    text-decoration :none;
+}
+#header ul li a:hover{
+    background-color: thistle;
+   
+    color:black;
+    width:100%;
+}
+#intro{
+    padding : 40px 100px 40px 150px;
+    margin-bottom:60px ;
+}
+#intro .intro-text p h1{
+    font: size 200% ;
+    line-height: 20px;
+    word-spacing: 3px;
+    padding : 40px 100px 40px 100px;
+}
+#intro .intro-text .intro1{
+    padding : 20px 100px 20px 0px;
+}
+
+#intro .intro-text .intro1 b {
+    font-size:x-large ;
+    line-height: 20px;
+    word-spacing: 7px;
+    padding : 20px 100px 20px 0px;
+    margin-top:20px;
+    margin-bottom:30px ;
+}
+#intro .intro-text .quote{
+    margin-bottom:30px ;
+
+}
+#intro .intro-text .quote i{
+    font-size:x-large ;
+    line-height: 20px;
+    word-spacing: 7px;
+    padding : 20px 100px 20px 0px;
+    margin-top:20px;
+    margin-bottom:30px ;
+   
+}
+#qt {
+    float:right ;
+} 
+
+#aboutme{
+    padding : 40px 100px 40px 100px;
+    height:700px ;  
+    position: relative;   
+      
+}
+#aboutme  h1{
+    position:relative ;
+    left:40%; 
+    border:2px dotted rgb(255, 166, 0) ;
+    max-width: 200px;
+    padding : 20px 10px 20px 10px;
+    text-align :center;      
+    line-height:20px ;
+    margin-bottom: 40px;
+}
+
+#aboutme #text img{
+    align-content: center;
+    max-width:30%;
+    max-height: fit-content;
+    height:auto ;   
+    float:right ;
+    padding-top:10px ;
+    overflow:auto ;
+} 
+#aboutme #text p{
+        float:left;
+        overflow:auto ;
+        max-width:60% ;
+        padding-top: 40px ;
+        padding-bottom: 50px;
+        padding-right: 30px;
+        line-height: 30px;
+        font-size:x-large;
+        background-clip: padding-box;
+        background-size:cover;
+        background-attachment: fixed;
+        background-image:linear-gradient(rgba(1,1,1,.6),rgba(158, 136, 136, 0.877)), url("shutterstock_678565858.jpg");
+} 
+
+
+#Projects{  
+    position: relative;;
+    padding : 40px 100px 40px 100px;
+    
+}
+#Projects .section #pr{
+    max-width: 200px;
+    text-align :center;  
+    position:relative ;
+    left:40%; 
+    border:2px dotted rgb(248, 245, 240) transparent ;
+    padding:20px 10px 20px 10px ;
+    margin-bottom:80px ;
+}
+#Projects .section p{
+    font-size :x-large;
+    padding-bottom:30px ;
+    color:rgb(221, 196, 54);
+    margin-bottom:50px;
+    margin-top:10px;
+}
+#Projects .section #project1{
+    
+    max-width: 1300px;
+    height : 400px ;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    background-image:linear-gradient(rgba(1,1,1,.6),rgba(158,137,120,.3)), url("python-machine-learning-project-.png");
+    background-size: 100%;
+    background-position: center;
+    background-clip:padding-box;
+    
+}
+#Projects .section #project1 h1{
+    padding-top:20px;
+    padding-left: 10px;
+}
+#Projects .section #project1 h1 a {
+    text-decoration: none;
+    color:sandybrown;
+}
+#Projects .section #project2{
+    background-color:whitesmoke ;
+    max-width: 1300px;
+    height : 400px ;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    background-image:linear-gradient(rgba(1,1,1,.6),rgba(158,137,120,.2)), url("python.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-clip:padding-box;
+}
+#Projects .section #project2 h1{
+    padding-top:20px ;
+    padding-left: 10px;
+}
+
+#Projects .section #project2 h1 a {
+    text-decoration: none;
+    color:crimson;
+}
+#Projects .section #project3{
+    background-color:green;
+    background-clip: content-box;
+    max-width: 1300px;
+    height : 400px ;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
+    background-image:linear-gradient(rgba(1,1,1,.3),rgba(158,137,120,.6)), url("BlankDjangoProject.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-clip:padding-box
+    
+}
+#Projects .section #project3 h1{
+    padding-top:20px;
+    padding-left: 10px;
+}
+#Projects .section #project3 h1 a {
+    text-decoration: none;
+    color:darkgoldenrod;
+}
+#Projects p{ 
+    font-size:x-large;
+
+}
+#summary{
+    padding : 40px 100px 40px 100px;
+    position: relative;
+}
+#summary #content h1{
+    text-align :center;  
+    max-width: 200px;
+    position:relative ;
+    left:40%; 
+    border:2px dotted rgb(255, 166, 0) ;
+    padding : 20px 00px 20px 00px;
+    color :darkturquoise ;
+    margin-bottom:50px ;
+
+}
+#summary #content p{
+    padding-bottom :30px;
+    color: seashell;
+    font-size: x-large;
+}
+#summary #content ul{    
+    position:relative ;
+    left :50% ;
+    line-height: 25px;
+    
+}
+#summary #content ul li{
+    font-size:x-large;
+}
+
+#footer{
+    position:relative ;
+    padding : 40px 100px 40px 100px;
+    background-color: rgb(171, 119, 231) transparent;
+    font-size: x-large;
+}
+#footer #cont p{
+    position :relative;
+    padding : 10px 100px 40px 100px;
+  
+
+}
+#footer #cont ul{
+    margin-top:30px;
+    position:relative ;
+    left:30%;
+    padding-top:20px ;
+    padding-bottom:20px ;
+}
+#footer #cont ul li{
+    font-size: x-large;
+    line-height: 20px;
+    display: inline-flex;
+    border:1px solid bisque;
+    padding:5px 10px 5px 10px ;
+    background-color: transparent ;
+}
+#footer #cont ul li a{
+    padding :5px 10px 5px 10px ;
+    text-decoration: none;
+    color: beige;
+    
+}
+#footer #cont form {
+    position:relative;
+    left:40%;
+}
+#footer #cont form input{
+    font-size: x-large;
+    max-width: 30%;
+    margin-bottom: 20px;
+    height: 30px;
+
+
+}
+#footer #cont form #sub{
+    max-width: 25% ;
+
+}
+#footer #cont form textarea{
+    height: 50%;
+    width:30% ;
+    margin-top:5px;
+    margin-bottom: 10px;
+}

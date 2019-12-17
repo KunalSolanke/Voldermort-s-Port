@@ -1,0 +1,105 @@
+body{
+    background-image:linear-gradient(rgba(1,1,1,.6),rgba(158, 136, 136, 0.877)),
+     url("hogwarts-2172050_1280.jpg");
+    background-size: contain;
+}
+.bg-crimson{
+    background-color: rgba(168, 38, 21, 0.568);
+    background-size: 100%;
+}
+
+.fdiv{
+    width: 100%;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+ 
+.sec{
+    width:100%;
+    height:80%;
+}
+.fdiv{
+    width: 50%;
+}
+.ac{
+    background-image:linear-gradient(rgba(1,1,1,.6),rgba(69, 201, 179, 0.753)), url("travel-3238442_1920.jpg");
+    background-size: cover;
+}
+.bg-crimsone{
+    background-color: rgba(31, 230, 187, 0.486);
+}
+.a1{
+    background-image:linear-gradient(rgba(155, 86, 86, 0.651),rgba(196, 167, 167, 0.212)), url("read-out-3770410_1920.jpg");
+    background-size: cover;
+}
+
+.anim1 {
+    animation-name:go;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease ;
+}
+@keyframes go {
+    from{width:0% ;}
+    to {width: 100%;}
+}
+.anim2 {
+    animation-name:go;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease ;
+}
+@keyframes go {
+    from{width:0% ;}
+    to {width: 80%;}
+}
+.anim3 {
+    animation-name:go;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease ;
+}
+@keyframes go {
+    from{width:0% ;}
+    to {width: 60%;}
+}
+.anim4 {
+    animation-name:go;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease ;
+}
+@keyframes go {
+    from{width:0% ;}
+    to {width: 60%;}
+}
+.anim5 {
+    animation-name:go;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease ;
+}
+@keyframes go {
+    from{width:0% ;}
+    to {width: 40%;}
+}
+.anim6 {
+    animation-name:go;
+    animation-duration:2s;
+    animation-iteration-count: 1;
+    animation-timing-function:ease ;
+}
+@keyframes go {
+    from{width:0% ;}
+    to {width: 30%;}
+}
+.bg-mk{
+    background-color: rgba(247, 222, 3, 0.281);
+}
+.fdiv2{
+    width:100%;
+}
